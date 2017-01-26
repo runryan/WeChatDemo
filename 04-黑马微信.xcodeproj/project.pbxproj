@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139573641D46EC6D0041536F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 139573631D46EC6D0041536F /* main.m */; };
+		139573671D46EC6D0041536F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 139573661D46EC6D0041536F /* AppDelegate.m */; };
+		1395736A1D46EC6D0041536F /* HMMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 139573691D46EC6D0041536F /* HMMainController.m */; };
+		1395736D1D46EC6D0041536F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1395736B1D46EC6D0041536F /* Main.storyboard */; };
+		1395736F1D46EC6D0041536F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1395736E1D46EC6D0041536F /* Assets.xcassets */; };
+		139573721D46EC6D0041536F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139573701D46EC6D0041536F /* LaunchScreen.storyboard */; };
+		1395737A1D46ED9A0041536F /* HMChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139573791D46ED9A0041536F /* HMChat.storyboard */; };
+		1395737C1D46EDA70041536F /* HMDiscovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1395737B1D46EDA70041536F /* HMDiscovery.storyboard */; };
+		1395737E1D46EDB40041536F /* HMContacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1395737D1D46EDB40041536F /* HMContacts.storyboard */; };
+		139573801D46EDBD0041536F /* HMMe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1395737F1D46EDBD0041536F /* HMMe.storyboard */; };
+		1395738B1D46F1DF0041536F /* HMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395738A1D46F1DF0041536F /* HMTabBar.m */; };
+		1395738F1D46F2510041536F /* HMTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395738E1D46F2510041536F /* HMTab.m */; };
+		13A95A831D4702A400CC13F1 /* HMMonmentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A95A821D4702A400CC13F1 /* HMMonmentsController.m */; };
+		13A95A851D4703C600CC13F1 /* HMMomentsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A95A841D4703C600CC13F1 /* HMMomentsHeaderView.xib */; };
+		13A95A881D4736E400CC13F1 /* HMImageNavRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A95A871D4736E400CC13F1 /* HMImageNavRootController.m */; };
+		13A95A8B1D4737DE00CC13F1 /* HMImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A95A8A1D4737DE00CC13F1 /* HMImagePickerController.m */; };
+		13A95A8E1D473EF500CC13F1 /* HMImagePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A95A8D1D473EF500CC13F1 /* HMImagePickerCell.m */; };
+		13A95A911D47441600CC13F1 /* HMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A95A901D47441600CC13F1 /* HMImage.m */; };
+		13A95A991D47581400CC13F1 /* HMImageNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A95A981D47581400CC13F1 /* HMImageNavController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1395735F1D46EC6D0041536F /* 04-黑马微信.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-黑马微信.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		139573631D46EC6D0041536F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		139573651D46EC6D0041536F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		139573661D46EC6D0041536F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		139573681D46EC6D0041536F /* HMMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMMainController.h; sourceTree = "<group>"; };
+		139573691D46EC6D0041536F /* HMMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMMainController.m; sourceTree = "<group>"; };
+		1395736C1D46EC6D0041536F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1395736E1D46EC6D0041536F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		139573711D46EC6D0041536F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		139573731D46EC6D0041536F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139573791D46ED9A0041536F /* HMChat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HMChat.storyboard; sourceTree = "<group>"; };
+		1395737B1D46EDA70041536F /* HMDiscovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HMDiscovery.storyboard; sourceTree = "<group>"; };
+		1395737D1D46EDB40041536F /* HMContacts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HMContacts.storyboard; sourceTree = "<group>"; };
+		1395737F1D46EDBD0041536F /* HMMe.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HMMe.storyboard; sourceTree = "<group>"; };
+		139573891D46F1DF0041536F /* HMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBar.h; sourceTree = "<group>"; };
+		1395738A1D46F1DF0041536F /* HMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBar.m; sourceTree = "<group>"; };
+		1395738D1D46F2510041536F /* HMTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTab.h; sourceTree = "<group>"; };
+		1395738E1D46F2510041536F /* HMTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTab.m; sourceTree = "<group>"; };
+		13A95A811D4702A400CC13F1 /* HMMonmentsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMonmentsController.h; sourceTree = "<group>"; };
+		13A95A821D4702A400CC13F1 /* HMMonmentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMonmentsController.m; sourceTree = "<group>"; };
+		13A95A841D4703C600CC13F1 /* HMMomentsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMMomentsHeaderView.xib; sourceTree = "<group>"; };
+		13A95A861D4736E400CC13F1 /* HMImageNavRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageNavRootController.h; sourceTree = "<group>"; };
+		13A95A871D4736E400CC13F1 /* HMImageNavRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageNavRootController.m; sourceTree = "<group>"; };
+		13A95A891D4737DE00CC13F1 /* HMImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImagePickerController.h; sourceTree = "<group>"; };
+		13A95A8A1D4737DE00CC13F1 /* HMImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImagePickerController.m; sourceTree = "<group>"; };
+		13A95A8C1D473EF500CC13F1 /* HMImagePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImagePickerCell.h; sourceTree = "<group>"; };
+		13A95A8D1D473EF500CC13F1 /* HMImagePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImagePickerCell.m; sourceTree = "<group>"; };
+		13A95A8F1D47441600CC13F1 /* HMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImage.h; sourceTree = "<group>"; };
+		13A95A901D47441600CC13F1 /* HMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImage.m; sourceTree = "<group>"; };
+		13A95A971D47581400CC13F1 /* HMImageNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageNavController.h; sourceTree = "<group>"; };
+		13A95A981D47581400CC13F1 /* HMImageNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageNavController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1395735C1D46EC6D0041536F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139573561D46EC6D0041536F = {
+			isa = PBXGroup;
+			children = (
+				139573611D46EC6D0041536F /* 04-黑马微信 */,
+				139573601D46EC6D0041536F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		139573601D46EC6D0041536F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1395735F1D46EC6D0041536F /* 04-黑马微信.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139573611D46EC6D0041536F /* 04-黑马微信 */ = {
+			isa = PBXGroup;
+			children = (
+				139573861D46F18B0041536F /* Main */,
+				139573811D46F15D0041536F /* 微信 */,
+				139573831D46F1700041536F /* 通讯录 */,
+				139573821D46F16A0041536F /* 发现 */,
+				139573841D46F1760041536F /* 我 */,
+				139573851D46F17F0041536F /* 其他 */,
+				139573621D46EC6D0041536F /* Supporting Files */,
+			);
+			name = "04-黑马微信";
+			path = "黑马微信";
+			sourceTree = "<group>";
+		};
+		139573621D46EC6D0041536F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1395736E1D46EC6D0041536F /* Assets.xcassets */,
+				139573731D46EC6D0041536F /* Info.plist */,
+				139573631D46EC6D0041536F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		139573811D46F15D0041536F /* 微信 */ = {
+			isa = PBXGroup;
+			children = (
+				139573791D46ED9A0041536F /* HMChat.storyboard */,
+			);
+			name = "微信";
+			sourceTree = "<group>";
+		};
+		139573821D46F16A0041536F /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				13A95A951D4754C600CC13F1 /* Views */,
+				13A95A941D4754AD00CC13F1 /* Controllers */,
+				13A95A961D4754CC00CC13F1 /* Models */,
+			);
+			name = "发现";
+			sourceTree = "<group>";
+		};
+		139573831D46F1700041536F /* 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				1395737D1D46EDB40041536F /* HMContacts.storyboard */,
+			);
+			name = "通讯录";
+			sourceTree = "<group>";
+		};
+		139573841D46F1760041536F /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				1395737F1D46EDBD0041536F /* HMMe.storyboard */,
+			);
+			name = "我";
+			sourceTree = "<group>";
+		};
+		139573851D46F17F0041536F /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				139573651D46EC6D0041536F /* AppDelegate.h */,
+				139573661D46EC6D0041536F /* AppDelegate.m */,
+			);
+			name = "其他";
+			sourceTree = "<group>";
+		};
+		139573861D46F18B0041536F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1395738C1D46F2420041536F /* Models */,
+				139573871D46F1B10041536F /* Views */,
+				139573881D46F1B70041536F /* Controllers */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		139573871D46F1B10041536F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				139573701D46EC6D0041536F /* LaunchScreen.storyboard */,
+				1395736B1D46EC6D0041536F /* Main.storyboard */,
+				139573891D46F1DF0041536F /* HMTabBar.h */,
+				1395738A1D46F1DF0041536F /* HMTabBar.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		139573881D46F1B70041536F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				139573681D46EC6D0041536F /* HMMainController.h */,
+				139573691D46EC6D0041536F /* HMMainController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1395738C1D46F2420041536F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1395738D1D46F2510041536F /* HMTab.h */,
+				1395738E1D46F2510041536F /* HMTab.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		13A95A941D4754AD00CC13F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13A95A861D4736E400CC13F1 /* HMImageNavRootController.h */,
+				13A95A871D4736E400CC13F1 /* HMImageNavRootController.m */,
+				13A95A891D4737DE00CC13F1 /* HMImagePickerController.h */,
+				13A95A8A1D4737DE00CC13F1 /* HMImagePickerController.m */,
+				13A95A811D4702A400CC13F1 /* HMMonmentsController.h */,
+				13A95A821D4702A400CC13F1 /* HMMonmentsController.m */,
+				13A95A971D47581400CC13F1 /* HMImageNavController.h */,
+				13A95A981D47581400CC13F1 /* HMImageNavController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		13A95A951D4754C600CC13F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1395737B1D46EDA70041536F /* HMDiscovery.storyboard */,
+				13A95A841D4703C600CC13F1 /* HMMomentsHeaderView.xib */,
+				13A95A8C1D473EF500CC13F1 /* HMImagePickerCell.h */,
+				13A95A8D1D473EF500CC13F1 /* HMImagePickerCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		13A95A961D4754CC00CC13F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13A95A8F1D47441600CC13F1 /* HMImage.h */,
+				13A95A901D47441600CC13F1 /* HMImage.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1395735E1D46EC6D0041536F /* 04-黑马微信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139573761D46EC6D0041536F /* Build configuration list for PBXNativeTarget "04-黑马微信" */;
+			buildPhases = (
+				1395735B1D46EC6D0041536F /* Sources */,
+				1395735C1D46EC6D0041536F /* Frameworks */,
+				1395735D1D46EC6D0041536F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-黑马微信";
+			productName = "黑马微信";
+			productReference = 1395735F1D46EC6D0041536F /* 04-黑马微信.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139573571D46EC6D0041536F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HeiMa;
+				TargetAttributes = {
+					1395735E1D46EC6D0041536F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1395735A1D46EC6D0041536F /* Build configuration list for PBXProject "04-黑马微信" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 139573561D46EC6D0041536F;
+			productRefGroup = 139573601D46EC6D0041536F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1395735E1D46EC6D0041536F /* 04-黑马微信 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1395735D1D46EC6D0041536F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139573721D46EC6D0041536F /* LaunchScreen.storyboard in Resources */,
+				1395737A1D46ED9A0041536F /* HMChat.storyboard in Resources */,
+				139573801D46EDBD0041536F /* HMMe.storyboard in Resources */,
+				1395737E1D46EDB40041536F /* HMContacts.storyboard in Resources */,
+				13A95A851D4703C600CC13F1 /* HMMomentsHeaderView.xib in Resources */,
+				1395737C1D46EDA70041536F /* HMDiscovery.storyboard in Resources */,
+				1395736F1D46EC6D0041536F /* Assets.xcassets in Resources */,
+				1395736D1D46EC6D0041536F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1395735B1D46EC6D0041536F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1395738F1D46F2510041536F /* HMTab.m in Sources */,
+				1395736A1D46EC6D0041536F /* HMMainController.m in Sources */,
+				139573671D46EC6D0041536F /* AppDelegate.m in Sources */,
+				1395738B1D46F1DF0041536F /* HMTabBar.m in Sources */,
+				13A95A991D47581400CC13F1 /* HMImageNavController.m in Sources */,
+				13A95A8E1D473EF500CC13F1 /* HMImagePickerCell.m in Sources */,
+				13A95A881D4736E400CC13F1 /* HMImageNavRootController.m in Sources */,
+				139573641D46EC6D0041536F /* main.m in Sources */,
+				13A95A8B1D4737DE00CC13F1 /* HMImagePickerController.m in Sources */,
+				13A95A911D47441600CC13F1 /* HMImage.m in Sources */,
+				13A95A831D4702A400CC13F1 /* HMMonmentsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1395736B1D46EC6D0041536F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1395736C1D46EC6D0041536F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		139573701D46EC6D0041536F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139573711D46EC6D0041536F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		139573741D46EC6D0041536F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		139573751D46EC6D0041536F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		139573771D46EC6D0041536F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "黑马微信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heima.----";
+				PRODUCT_NAME = "04-黑马微信";
+			};
+			name = Debug;
+		};
+		139573781D46EC6D0041536F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "黑马微信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heima.----";
+				PRODUCT_NAME = "04-黑马微信";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1395735A1D46EC6D0041536F /* Build configuration list for PBXProject "04-黑马微信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139573741D46EC6D0041536F /* Debug */,
+				139573751D46EC6D0041536F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139573761D46EC6D0041536F /* Build configuration list for PBXNativeTarget "04-黑马微信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139573771D46EC6D0041536F /* Debug */,
+				139573781D46EC6D0041536F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 139573571D46EC6D0041536F /* Project object */;
+}
